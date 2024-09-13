@@ -1,0 +1,30 @@
+.chef-img{
+    background-image: url('../../../assets/sushi_chef.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.chef-content{
+    position: absolute;
+    top: 10%;
+    padding: 10px;
+    background-color:var(--color-primary);
+}
+
+.chef-content p{
+    font-size: 15px;
+}
+
+.chef-info h4{
+    text-transform: uppercase;
+}
+
+.chef-info p{
+    padding-top: 10px;
+    font-size: 15px;
+    color: var(--color-black);
+}
+
