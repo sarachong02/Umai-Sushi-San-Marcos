@@ -1,0 +1,22 @@
+.footer{
+    background-color: var(--color-black);
+    height: 40vh;
+    padding-top: 4%;
+}
+
+.footer-grid-item :nth-child(2){
+    padding-top: 10px;
+}
+
+.footer-grid-item h1{
+    color: #fffefe
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+}
+
+
+

@@ -129,6 +129,10 @@ blockquote {
   color: var(--color-white)
 }
 
+.text-white hover{
+  color: lightgray;
+}
+
 .bold-emphasis {
   color: var(--color-primary);
   font-weight: 700;
@@ -141,5 +145,9 @@ blockquote {
 
   .heading-primary {
     font-size: 45px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
   }
 }

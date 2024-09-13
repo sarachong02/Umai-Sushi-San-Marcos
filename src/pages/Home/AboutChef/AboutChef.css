@@ -12,6 +12,7 @@
     top: 10%;
     padding: 10px;
     background-color:var(--color-primary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .chef-content p{
@@ -26,5 +27,9 @@
     padding-top: 10px;
     font-size: 15px;
     color: var(--color-black);
+}
+
+.grid-item {
+    padding-bottom: 50px;
 }
 
