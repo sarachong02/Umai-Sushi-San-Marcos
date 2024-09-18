@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollToTopButton from './components/goTopBtn/goTopBtn'
 import {Routes, Route} from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Menu from './pages/Menu/Menu'
@@ -19,6 +20,7 @@ function App() {
       <Footer>
         Footer
       </Footer>
+      <ScrollToTopButton />
     </div>
   );
 }

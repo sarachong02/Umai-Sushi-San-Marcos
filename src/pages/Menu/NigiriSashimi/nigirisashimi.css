@@ -1,0 +1,18 @@
+.nigiri-sashimi h1{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 60px;
+}
+
+.menu-description {
+    font-size: 20px;
+    font-weight: 150;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.specific {
+    font-weight: 400;
+    color: var(--color-primary);
+}
