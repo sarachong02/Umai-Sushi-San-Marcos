@@ -2,6 +2,8 @@ import React from 'react'
 import './Lunch.css'
 import ListItem from '../../../components/ListItem/ListItem'
 
+import bentoImg from "../../../assets/bentobox.jpg"
+
 const menuDataLeft = [
     {
         title:"Sushi Lunch",
@@ -60,6 +62,11 @@ const Lunch = () => {
         </h2>
 
         <div className='grid-container'>
+
+            <div>
+                <img src={bentoImg} alt='bentoImg'/>
+            </div>
+
             <div>
                 {menuDataLeft.map((data,i) => (
                     <ListItem

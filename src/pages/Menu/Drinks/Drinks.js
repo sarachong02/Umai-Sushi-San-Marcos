@@ -2,6 +2,8 @@ import React from 'react'
 import './Drinks.css'
 import ListItem from '../../../components/ListItem/ListItem'
 
+import sapporoImage from "../../../assets/sapporo.jpg"
+
 const menuDataLeft = [
     {
         title: 'Sapporo',
@@ -22,6 +24,11 @@ const menuDataLeft = [
     {
         title: 'Hot Sake',
         price: 'Small: 6.00, Large: 8.00'
+    },
+    {
+        title: 'Ramune',
+        description: 'Original, Grape, Strawberry, Lychee, Melon, Orange',
+        price: '5.00'
     }
 ]
 
@@ -44,11 +51,6 @@ const menuDataRight = [
         price: '10.00'
     },
     {
-        title: 'Ramune',
-        description: 'Original, Grape, Strawberry, Lychee, Melon, Orange',
-        price: '5.00'
-    },
-    {
         title: 'Soft Drinks',
         description: 'Coke, Sprite, Orange soda, Dr. Pepper, Root Beer, Sparkling Water, Lemonade, Iced Tea',
         price: '2.00'
@@ -63,6 +65,11 @@ const Drinks = () => {
         </h1>
 
         <div className='grid-container'>
+
+            <div>
+                <img src={sapporoImage} alt='beer'/>
+            </div>
+
             <div>
                 {menuDataLeft.map((data,i) => (
                     <ListItem

@@ -2,6 +2,8 @@ import React from 'react'
 import './Salads.css'
 import ListItem from "../../../components/ListItem/ListItem"
 
+import saladImg from "../../../assets/seared_tuna_salad.jpg"
+
 const menuDataLeft = [
     {
         title: 'House Green Salad',
@@ -56,6 +58,11 @@ const Salads = () => {
         </h1>
 
         <div className='grid-container'>
+
+            <div>
+                <img src={saladImg} alt='saladImg'/>
+            </div>
+
             <div>
                 {menuDataLeft.map((data,i) => (
                     <ListItem

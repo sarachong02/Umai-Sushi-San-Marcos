@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Ramen.css"
 import ListItem from "../../../components/ListItem/ListItem"
+import ramenImage from "../../../assets/ramen.jpg"
 
 const menuData = [
     {
@@ -37,13 +38,22 @@ const Ramen = () => {
             <h1 className='heading-secondary'>
                 <span className='bold-emphasis'>Ramen</span>
             </h1>
-            {menuData.map((data, i) => (
-            <ListItem
-                title={data.title}
-                description={data.description}
-                price={data.price}
-            />
-            ))}
+
+            <div className = 'grid-container'>
+                <div>
+                    <img src={ramenImage} alt='ramen'/>
+                </div>
+
+                <div>
+                {menuData.map((data, i) => (
+                <ListItem
+                    title={data.title}
+                    description={data.description}
+                    price={data.price}
+                />
+                ))}
+                </div>
+            </div>
         </div>
     </div>
   )

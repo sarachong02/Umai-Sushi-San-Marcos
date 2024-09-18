@@ -3,3 +3,9 @@
     padding-bottom: 5px;
     padding-top: 60px;
 }
+
+.lunch img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
