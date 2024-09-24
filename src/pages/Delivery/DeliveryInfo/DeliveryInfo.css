@@ -1,0 +1,20 @@
+.delivery-iconbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.delivery-iconbox h3 {
+    margin-bottom: 0;
+}
+
+.rating-component {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+

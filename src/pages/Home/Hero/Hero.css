@@ -1,7 +1,8 @@
 .hero-img{
     height: 100vh;
     max-width: 100%;
-    background-image: url('../../../assets/soy_sauce.jpg');
+    /* background-image: url('../../../assets/soy_sauce.jpg'); */
+    background-image: url('../../../assets/next_open.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
