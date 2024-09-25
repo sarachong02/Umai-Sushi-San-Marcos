@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assets/logo.png";
@@ -10,6 +10,7 @@ import "./Navbar.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [color, setColor] = useState(false); 
+  const navigate = useNavigate(); // Initialize useNavigate
 
   const changeColor = () => {
     if(window.scrollY >= 100) {
@@ -24,6 +25,10 @@ const Navbar = () => {
   const handleClick = () => {
     setClick(!click)
   }
+
+  const handleOrderNowClick = () => {
+    window.open('https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=1d93676d-8788-45ab-b626-108e905f7528', '_blank'); // Replace with your external link
+  };
 
   return (
     <div className={color ? "header header-bg" : 'header'}>
@@ -60,7 +65,7 @@ const Navbar = () => {
               </NavLink>
             </li>
 
-            <li onClick={handleClick}>
+            <li onClick={handleOrderNowClick}>
               <button>Order now</button>
             </li>
           </ul>
