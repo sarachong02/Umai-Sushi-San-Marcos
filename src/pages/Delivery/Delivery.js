@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from '../../components/HeroImage/HeroImage'
-import bgImage from '../../assets/sushi_line.jpg'
+// import bgImage from '../../assets/sushi_line.jpg'
+import bgImage from "../../assets/50%_rolls/aka.jpg"
 import DeliveryInfo from './DeliveryInfo/DeliveryInfo'
 
 const Delivery = () => {

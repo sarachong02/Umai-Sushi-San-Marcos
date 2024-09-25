@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroImage from "../../components/HeroImage/HeroImage"
-import bgImage from "../../assets/opening_image.jpg"
+import bgImage from "../../assets/50%_rolls/golden.jpg"
 import AboutInfo from './AboutInfo/AboutInfo'
 import OurData from './OurData/OurData'
 import Gallery from './Gallery/Gallery'
