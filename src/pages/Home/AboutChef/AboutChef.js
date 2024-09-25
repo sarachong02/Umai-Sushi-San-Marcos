@@ -8,7 +8,7 @@ const AboutChef = () => {
             <div className='container'>
                 <div className='chef-content'>
                     <h1 className='heading-primary'>
-                        meet the <span>team</span>
+                        meet the <span>owners</span>
                     </h1>
 
                     <p className='text-white'>
