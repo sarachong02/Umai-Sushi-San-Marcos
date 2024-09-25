@@ -1,5 +1,6 @@
 import React from 'react'
 import ScrollToTopButton from './components/goTopBtn/goTopBtn'
+import StartAtTop from './components/StartAtTop/StartAtTop'
 import {Routes, Route} from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Menu from './pages/Menu/Menu'
@@ -14,6 +15,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <StartAtTop />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
