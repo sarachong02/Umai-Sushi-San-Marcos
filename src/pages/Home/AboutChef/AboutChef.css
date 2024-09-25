@@ -23,13 +23,21 @@
     text-transform: uppercase;
 }
 
-.chef-info p{
-    padding-top: 10px;
+.chef-info p {
+    padding-top: 10px; /* Existing padding */
+    margin-bottom: 20px; /* Adds space between paragraphs */
     font-size: 15px;
     color: var(--color-black);
 }
 
 .grid-item {
     padding-bottom: 50px;
+}
+
+.owners-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures image covers its container while maintaining aspect ratio */
+    border-radius: 5px;
 }
 
