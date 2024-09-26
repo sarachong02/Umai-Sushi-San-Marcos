@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: space-between;
     height: 90px;
+    margin-left: -5px;
 }
 
 .nav-menu {
@@ -47,6 +48,7 @@
     .hamburger {
         display: block;
         cursor: pointer;
+        color: white;
     }
 
     .nav-menu {

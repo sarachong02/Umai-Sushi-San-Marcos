@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/umai_sushi_logo.png";
 
 import "./Navbar.css";
 
@@ -72,9 +72,9 @@ const Navbar = () => {
 
           <div className="hamburger" onClick={handleClick}>
             {click ? (
-              <FaTimes size={20} style={{ color: '#000' }} />
+              <FaTimes size={20} style={{ color: '#fff' }} />
             ) : (
-              <FaBars size={20} style={{ color: '#000' }} />
+              <FaBars size={20} style={{ color: '#fff' }} />
             )}
           </div>
         </div>
