@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Umai-Sushi-San-Marcos/static/css/main.64b73c0d.css",
-    "main.js": "/Umai-Sushi-San-Marcos/static/js/main.d2f8fb8e.js",
+    "main.css": "/Umai-Sushi-San-Marcos/static/css/main.578a46f9.css",
+    "main.js": "/Umai-Sushi-San-Marcos/static/js/main.f787ac78.js",
     "static/media/nigiri_combo.png": "/Umai-Sushi-San-Marcos/static/media/nigiri_combo.f6a15c4eb6c9ff3c5e4c.png",
     "static/media/sashimi_combo_a.png": "/Umai-Sushi-San-Marcos/static/media/sashimi_combo_a.ecc9a5cebe274e1523c9.png",
     "static/media/tuna sashimi.png": "/Umai-Sushi-San-Marcos/static/media/tuna sashimi.3a2d738865a25f27a85f.png",
@@ -12,6 +12,7 @@
     "static/media/albacore_attack.png": "/Umai-Sushi-San-Marcos/static/media/albacore_attack.ef36bef4be6029247f8a.png",
     "static/media/albacore_special.png": "/Umai-Sushi-San-Marcos/static/media/albacore_special.ef36bef4be6029247f8a.png",
     "static/media/baked_salmon.jpeg": "/Umai-Sushi-San-Marcos/static/media/baked_salmon.1aff26222270c8a63d04.jpeg",
+    "static/media/umai_sushi_logo.png": "/Umai-Sushi-San-Marcos/static/media/umai_sushi_logo.1f5f50b246cc4f1d19ca.png",
     "static/media/super_crunch.png": "/Umai-Sushi-San-Marcos/static/media/super_crunch.b82c8f63dc59e6d14c49.png",
     "static/media/ninja.jpg": "/Umai-Sushi-San-Marcos/static/media/ninja.49b6613d983c801e3133.jpg",
     "static/media/dragon.jpg": "/Umai-Sushi-San-Marcos/static/media/dragon.340b7e41e0208c47a03f.jpg",
@@ -94,11 +95,11 @@
     "static/media/slick.ttf": "/Umai-Sushi-San-Marcos/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Umai-Sushi-San-Marcos/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Umai-Sushi-San-Marcos/index.html",
-    "main.64b73c0d.css.map": "/Umai-Sushi-San-Marcos/static/css/main.64b73c0d.css.map",
-    "main.d2f8fb8e.js.map": "/Umai-Sushi-San-Marcos/static/js/main.d2f8fb8e.js.map"
+    "main.578a46f9.css.map": "/Umai-Sushi-San-Marcos/static/css/main.578a46f9.css.map",
+    "main.f787ac78.js.map": "/Umai-Sushi-San-Marcos/static/js/main.f787ac78.js.map"
   },
   "entrypoints": [
-    "static/css/main.64b73c0d.css",
-    "static/js/main.d2f8fb8e.js"
+    "static/css/main.578a46f9.css",
+    "static/js/main.f787ac78.js"
   ]
 }
