@@ -291,7 +291,7 @@ const menuDataRight = [
 
 const HalfRolls = () => {
   return (
-    <div id="SashimiCombo" className='container halfrolls'>
+    <div id="HalfRolls" className='container halfrolls'>
         <h1 className='heading-secondary'>
         <span className='bold-emphasis'>50% Off </span> Rolls
         </h1>
