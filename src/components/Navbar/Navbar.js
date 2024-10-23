@@ -26,9 +26,9 @@ const Navbar = () => {
     setClick(!click)
   }
 
-  const handleOrderNowClick = () => {
-    window.open('https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=1d93676d-8788-45ab-b626-108e905f7528', '_blank'); // Replace with your external link
-  };
+  // const handleOrderNowClick = () => {
+  //   window.open('https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=1d93676d-8788-45ab-b626-108e905f7528', '_blank'); // Replace with your external link
+  // };
 
   return (
     <div className={color ? "header header-bg" : 'header'}>
@@ -65,9 +65,17 @@ const Navbar = () => {
               </NavLink>
             </li>
 
-            <li onClick={handleOrderNowClick}>
+            {/* <li onClick={handleOrderNowClick}>
               <button>Order now</button>
+            </li> */}
+
+            <li onClick={handleClick}>
+              <NavLink className="nav-link" to="/order">
+                <button>Order now</button>
+              </NavLink>
             </li>
+
+            
           </ul>
 
           {/* hello */}

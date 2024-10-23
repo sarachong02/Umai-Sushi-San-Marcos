@@ -3,6 +3,7 @@
     width: 100%;
     background-color: rgba(0,0,0,0.25);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 20px;
     z-index: 9999;
 }
 
@@ -19,8 +20,14 @@
     margin-left: -5px;
 }
 
+.nav-bar img{
+    margin-right: auto;
+}
+
 .nav-menu {
     display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
 .nav-menu li {
