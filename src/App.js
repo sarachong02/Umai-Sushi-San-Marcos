@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import StoreContextProvider from './context/StoreContext';
 import ScrollToTopButton from './components/goTopBtn/goTopBtn';
 import StartAtTop from './components/StartAtTop/StartAtTop';
 import Home from './pages/Home/Home';
@@ -27,7 +28,14 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/delivery" element={<Delivery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/order" element={<Order />} />
+        <Route 
+          path="/order" 
+          element={
+            <StoreContextProvider>
+              <Order />
+            </StoreContextProvider>
+          } 
+        />
         <Route path="/cart" element={<Cart />} />
         <Route path="/placeorder" element={<PlaceOrder />} />
       </Routes>

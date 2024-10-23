@@ -4,7 +4,7 @@ import "./ListItem.css"
 const ListItem = ({title, description, price, itemImage}) => {
 
   const descriptionLines = description ? description.split('\n') : [];
-
+ 
   return (
     <div className="list-items">
         <ul>
